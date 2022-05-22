@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&display=swap');
+
+h1, p, button, input, footer, select {
+    font-family: 'Indie Flower', cursive;
+}
+
+.imageClass{
+    width: 100%;
+    object-fit: cover;
+}
+
+.tabs{
+    display: flex;
+    column-gap: 10px;
+}
+
+.roundCorners{
+    border-radius: 5px;
+}
+
+.searchBarDiv{
+    margin-left: 70%;
+}
+
+.addMargin{
+    margin: 2%;
+}
+
+.navTab:hover {
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.heightConfig{
+    height:100%;
+}
+
+footer {
+    text-align: center;
+    margin: 2%;
+}
+
+.exam
+{ background-color: #000000; color: #800000; }
+
+.exam1
+{ background-color: #FFFAFA; color: #131516; }
+
+
+select{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1100px) {
+    .searchBarDiv {
+        margin-left: 40%;
+    }
+    .naviBar{
+        margin-left: 15%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col-4{
+        width: 75%;
+    }
+    .col{
+        width:75%;
+    }
+    .row{
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        margin-left: 15%
+    }
+    
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .searchBarDiv{ 
+        margin-left: 30%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) {
+    .naviBar{ 
+        visibility: hidden;
+    }
+
+    select{
+        visibility: visible;
+        margin-left: 15%;
+    }
+    
+  }
